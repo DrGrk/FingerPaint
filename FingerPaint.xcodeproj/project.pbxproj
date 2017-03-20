@@ -13,6 +13,9 @@
 		76ECFE611E7C66250066C9BD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76ECFE5F1E7C66250066C9BD /* Main.storyboard */; };
 		76ECFE631E7C66250066C9BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 76ECFE621E7C66250066C9BD /* Assets.xcassets */; };
 		76ECFE661E7C66250066C9BD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 76ECFE641E7C66250066C9BD /* LaunchScreen.storyboard */; };
+		76ECFE6F1E7CA1D20066C9BD /* Segment.m in Sources */ = {isa = PBXBuildFile; fileRef = 76ECFE6E1E7CA1D20066C9BD /* Segment.m */; };
+		76ECFE721E7CA2990066C9BD /* Line.m in Sources */ = {isa = PBXBuildFile; fileRef = 76ECFE711E7CA2990066C9BD /* Line.m */; };
+		76ECFE751E7CA4440066C9BD /* PaintView.m in Sources */ = {isa = PBXBuildFile; fileRef = 76ECFE741E7CA4440066C9BD /* PaintView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,12 @@
 		76ECFE621E7C66250066C9BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		76ECFE651E7C66250066C9BD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		76ECFE671E7C66250066C9BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		76ECFE6D1E7CA1D20066C9BD /* Segment.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Segment.h; sourceTree = "<group>"; };
+		76ECFE6E1E7CA1D20066C9BD /* Segment.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Segment.m; sourceTree = "<group>"; };
+		76ECFE701E7CA2990066C9BD /* Line.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Line.h; sourceTree = "<group>"; };
+		76ECFE711E7CA2990066C9BD /* Line.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Line.m; sourceTree = "<group>"; };
+		76ECFE731E7CA4440066C9BD /* PaintView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PaintView.h; sourceTree = "<group>"; };
+		76ECFE741E7CA4440066C9BD /* PaintView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PaintView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +76,12 @@
 				76ECFE641E7C66250066C9BD /* LaunchScreen.storyboard */,
 				76ECFE671E7C66250066C9BD /* Info.plist */,
 				76ECFE561E7C66250066C9BD /* Supporting Files */,
+				76ECFE6D1E7CA1D20066C9BD /* Segment.h */,
+				76ECFE6E1E7CA1D20066C9BD /* Segment.m */,
+				76ECFE701E7CA2990066C9BD /* Line.h */,
+				76ECFE711E7CA2990066C9BD /* Line.m */,
+				76ECFE731E7CA4440066C9BD /* PaintView.h */,
+				76ECFE741E7CA4440066C9BD /* PaintView.m */,
 			);
 			path = FingerPaint;
 			sourceTree = "<group>";
@@ -150,9 +165,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				76ECFE721E7CA2990066C9BD /* Line.m in Sources */,
 				76ECFE5E1E7C66250066C9BD /* ViewController.m in Sources */,
 				76ECFE5B1E7C66250066C9BD /* AppDelegate.m in Sources */,
 				76ECFE581E7C66250066C9BD /* main.m in Sources */,
+				76ECFE6F1E7CA1D20066C9BD /* Segment.m in Sources */,
+				76ECFE751E7CA4440066C9BD /* PaintView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +325,7 @@
 				76ECFE6C1E7C66250066C9BD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
